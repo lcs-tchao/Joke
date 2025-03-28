@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		AFAEA7462D96FB8000309441 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAEA73F2D96FB8000309441 /* Preview Assets.xcassets */; };
 		AFAEA7472D96FB8000309441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAEA7432D96FB8000309441 /* Assets.xcassets */; };
-		AFAEA7482D96FB8000309441 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAEA7412D96FB8000309441 /* JokeView.swift */; };
 		AFAEA7492D96FB8000309441 /* JokeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAEA7442D96FB8000309441 /* JokeApp.swift */; };
 		AFAEA74B2D96FCE100309441 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAEA74A2D96FCE100309441 /* Joke.swift */; };
+		AFAEA7502D96FDA800309441 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAEA74F2D96FDA800309441 /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AFAEA7122D96FA4900309441 /* Joke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAEA73F2D96FB8000309441 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AFAEA7412D96FB8000309441 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
 		AFAEA7432D96FB8000309441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFAEA7442D96FB8000309441 /* JokeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeApp.swift; sourceTree = "<group>"; };
 		AFAEA74A2D96FCE100309441 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		AFAEA74F2D96FDA800309441 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -84,7 +84,7 @@
 		AFAEA7422D96FB8000309441 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AFAEA7412D96FB8000309441 /* JokeView.swift */,
+				AFAEA74F2D96FDA800309441 /* View.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,8 +179,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFAEA7482D96FB8000309441 /* JokeView.swift in Sources */,
 				AFAEA7492D96FB8000309441 /* JokeApp.swift in Sources */,
+				AFAEA7502D96FDA800309441 /* View.swift in Sources */,
 				AFAEA74B2D96FCE100309441 /* Joke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
