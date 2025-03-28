@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AFAEA7462D96FB8000309441 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAEA73F2D96FB8000309441 /* Preview Assets.xcassets */; };
+		AFAEA7472D96FB8000309441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAEA7432D96FB8000309441 /* Assets.xcassets */; };
+		AFAEA7482D96FB8000309441 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAEA7412D96FB8000309441 /* JokeView.swift */; };
+		AFAEA7492D96FB8000309441 /* JokeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAEA7442D96FB8000309441 /* JokeApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AFAEA7122D96FA4900309441 /* Joke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAEA73F2D96FB8000309441 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFAEA7412D96FB8000309441 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
+		AFAEA7432D96FB8000309441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFAEA7442D96FB8000309441 /* JokeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		AFAEA7142D96FA4900309441 /* Joke */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Joke;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AFAEA70F2D96FA4900309441 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		AFAEA7092D96FA4900309441 = {
 			isa = PBXGroup;
 			children = (
-				AFAEA7142D96FA4900309441 /* Joke */,
+				AFAEA7452D96FB8000309441 /* Joke */,
 				AFAEA7132D96FA4900309441 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,49 @@
 				AFAEA7122D96FA4900309441 /* Joke.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AFAEA73D2D96FB8000309441 /* JokeFinderApp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JokeFinderApp;
+			sourceTree = "<group>";
+		};
+		AFAEA73E2D96FB8000309441 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AFAEA7402D96FB8000309441 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFAEA73F2D96FB8000309441 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFAEA7422D96FB8000309441 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFAEA7412D96FB8000309441 /* JokeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFAEA7452D96FB8000309441 /* Joke */ = {
+			isa = PBXGroup;
+			children = (
+				AFAEA73D2D96FB8000309441 /* JokeFinderApp */,
+				AFAEA73E2D96FB8000309441 /* Model */,
+				AFAEA7402D96FB8000309441 /* Preview Content */,
+				AFAEA7422D96FB8000309441 /* Views */,
+				AFAEA7432D96FB8000309441 /* Assets.xcassets */,
+				AFAEA7442D96FB8000309441 /* JokeApp.swift */,
+			);
+			path = Joke;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +105,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				AFAEA7142D96FA4900309441 /* Joke */,
 			);
 			name = Joke;
 			packageProductDependencies = (
@@ -109,6 +152,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFAEA7462D96FB8000309441 /* Preview Assets.xcassets in Resources */,
+				AFAEA7472D96FB8000309441 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFAEA7482D96FB8000309441 /* JokeView.swift in Sources */,
+				AFAEA7492D96FB8000309441 /* JokeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
